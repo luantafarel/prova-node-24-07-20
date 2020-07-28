@@ -25,3 +25,11 @@ A idéia é deixar o candidato bem livre pra reimplementar o código da maneira 
 ## Como será feita a entrega?
 
 Deverá ser realizado um fork deste repositório e no formulário enviado você deverá responder com o link deste fork.
+
+## Documentação da solução
+Para executar buildar e executar o docker você precisa 
+executar os comandos na pasta do projeto
+docker image build -t back .
+docker container run -d -p 3000:3000 back
+O projeto estara sendo executado no link 192.168.99.100:3001
+Ou de acordo com os padrões do seu Docker.
