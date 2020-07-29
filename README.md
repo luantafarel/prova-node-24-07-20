@@ -30,6 +30,9 @@ Deverá ser realizado um fork deste repositório e no formulário enviado você 
 Para executar buildar e executar o docker você precisa 
 executar os comandos na pasta do projeto
 docker image build -t back .
-docker container run -d -p 3000:3000 back
-O projeto estara sendo executado no link 192.168.99.100:3001
+docker container run -d -p 3000:5000 back
+O projeto estara sendo executado no link 192.168.99.100:3000
 Ou de acordo com os padrões do seu Docker.
+
+O projeto inclui testes que podem ser executados assim que a instancia do docker estiver ativa com o comando yarn test
+Recomendo a utilização do yarn para instalar os pacotes e métodos.
